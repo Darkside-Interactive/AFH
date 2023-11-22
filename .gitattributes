@@ -26,19 +26,9 @@
 
 #* change language tag
 
-*.css linguist-language=CSS
-*.pwn linguist-language=Pawn
-*.inc linguist-language=Pawn
-*.md  linguist-language=Markdown
-*.js  linguist-language=JavaScript
-*.json linguist-language=JSON
-*.sqlite linguist-language=SQL
-*.sql linguist-language=SQL
-*.php linguist-language=PHP
-*.html linguist-language=HTML
-*.mdl linguist-language=Objective-C
-*.bmf linguist-language=Objective-C
-*.ep linguist-language=C++
+*.mdl linguist-language=HLSL
+*.bmf linguist-language=HLSL
+*.ep linguist-language=HLSL
 *.rsc linguist-language=Lua
 *.fnt linguist-language=F#
 *.lfx linguist-language=HLSL
@@ -46,4 +36,5 @@
 *.pfx linguist-language=HLSL
 *.gtitle linguist-language=Python
 *.gtitleinfo linguist-language=Python
-*.cfg linguist-language=TypeScript
+*.lua linguist-language=Lua
+*.dlg linguist-language=Lua
