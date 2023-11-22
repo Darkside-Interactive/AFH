@@ -38,3 +38,4 @@
 *.gtitleinfo linguist-language=Python
 *.lua linguist-language=Lua
 *.dlg linguist-language=Lua
+*.wld linguist-language=C++
