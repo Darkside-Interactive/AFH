@@ -1,7 +1,4 @@
-#! òåêñòîâàÿ êîíôèãóðàöèÿ ôàéëîâ
-
-#? text=auto - ãèò ñàì îïðåäåëÿåò òåêñòîâûé ýòî ôàéë èëè áèíàðíûé
-#? if(-text) - ñíèìàåò îïðåäåëåíèå òåêñòîâîãî/áèíàðíîãî ôîðìàòà
+# здесь указывается, что является текстом или бинарным файлом
 
 * text=auto
 
@@ -24,7 +21,7 @@
 *.dll -text
 
 
-#* change language tag
+#* change language tag and fix binary file not shown
 
 *.mdl linguist-language=HLSL
 *.bmf linguist-language=HLSL
@@ -36,6 +33,8 @@
 *.pfx linguist-language=HLSL
 *.gtitle linguist-language=Python
 *.gtitleinfo linguist-language=Python
-*.lua linguist-language=Lua
-*.dlg linguist-language=Lua
+*.lua diff linguist-language=Lua
+*.dlg diff linguist-language=Lua
+*.txt diff linguist-language=Shell
+*.txt text working-tree-encoding=UTF-16LE eol=CRLF
 *.wld linguist-language=C++
