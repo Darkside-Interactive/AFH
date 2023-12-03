@@ -34,9 +34,9 @@
 *.gtitle linguist-language=Python
 *.gtitleinfo linguist-language=Python
 *.lua diff linguist-language=Lua
-*.lua text working-tree-encoding=UTF-16LE eol=CRLF
-*.dlg text working-tree-encoding=UTF-16LE eol=CRLF
+*.lua text working-tree-encoding=UTF-8 eol=CRLF
+*.dlg text working-tree-encoding=UTF-8 eol=CRLF
 *.dlg diff linguist-language=Lua
 *.txt diff linguist-language=Shell
-*.txt text working-tree-encoding=UTF-16LE eol=CRLF
+*.txt text working-tree-encoding=UTF-8 eol=CRLF
 *.wld linguist-language=C++
