@@ -1,2 +1,2 @@
-SHA: 964a665a2742b4be287743414f48d9c8090d54f1
-NAME: 0.0.1.3 | PRE-ALPHA | DEV-BUILD : Latest changes
+SHA: c7d1491a91cef222d76dde72195a0e714d6e1521
+NAME: 0.0.7.1 | PRE-ALPHA | DEV-BUILD | : New voiceovers, new locations in level (Antinomy of New World), New level (BORN TO RESIST), New cutscenes, new bugs and some fixes.
