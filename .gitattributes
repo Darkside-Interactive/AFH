@@ -4,23 +4,17 @@
 *.html text
 *.js text
 *.css text
-
 #* windows
 *.sln text eol=crlf
 *.bat eol=crlf
-
 #* unix
 *.sh eol=lf
-
 #* bin
 *.jpg -text
 *.gif -text
 *.exe -text
 *.dll -text
-
-
 #* change language tag and fix binary file not shown
-
 *.mdl linguist-language=HLSL
 *.bmf linguist-language=HLSL
 *.ep linguist-language=HLSL
@@ -40,3 +34,4 @@
 .bin filter=lfs diff=lfs merge=lfs -text
 .rsc filter=lfs diff=lfs merge=lfs -tetx
 *.wld linguist-language=C++
+*.bin filter=lfs diff=lfs merge=lfs -text
