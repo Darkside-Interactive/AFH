@@ -24,7 +24,9 @@
 *.mdl linguist-language=HLSL
 *.bmf linguist-language=HLSL
 *.ep linguist-language=HLSL
-*.rsc linguist-language=Lua
+*.rsc filter=lfs diff=lfs merge=lfs -text linguist-language=Lua
+*.bin filter=lfs diff=lfs merge=lfs -text linguist-language=HLSL
+*.tex filter=lfs diff=lfs merge=lfs -text linguist-language=TeX
 *.fnt linguist-language=F#
 *.lfx linguist-language=HLSL
 *.tfx linguist-language=HLSL
