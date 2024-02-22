@@ -1,9 +1,7 @@
-> Внимание! Дальнейший текст является плейсхолдером." 
-
 <p align="center">
-   <img src="https://igroid.com.ua/uploads/posts/2014-09/pole-chudes.jpg"
-        height="451"
-        width="1024">
+   <img src="https://github.com/Darkside-Interactive/.github/blob/develop/images/AWAY_FROM_HOME_PART_II_POSTER_3640_2160.png"
+        height="512"
+        width="3840">
 </p>
 <h2 align="center">Localization</h2>
 <table align="center">
