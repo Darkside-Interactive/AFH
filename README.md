@@ -1,3 +1,28 @@
+<h2 align="center">Localization</h2>
+<table align="center">
+    <tbody>
+        <tr>
+            <td><a href="https://github.com/ICEtheBreaker/rpp_aurora/blob/master/docs/README_eng.md">  
+                <img src="https://cdn.icon-icons.com/icons2/3665/PNG/512/gb_flag_great_britain_england_union_jack_english_icon_228674.png" title="English" alt="English"
+        	 height="50"
+                 width="50"></a>
+            </td>
+            <td><a href="https://github.com/ICEtheBreaker/rpp_aurora/blob/master/README.md">
+           	<img src="https://cdn.icon-icons.com/icons2/83/PNG/512/russia_15804.png" title="Русский" alt="Русский"
+                 height="50"
+                 width="50"></a>
+            </td>
+ 	    <td><a href="https://github.com/ICEtheBreaker/rpp_aurora/blob/master/docs/README_bel.md">
+	        <img src="https://cdn.icon-icons.com/icons2/107/PNG/512/belarus_18247.png" title="Беларуска мова" alt="Беларуская мова"
+	         height="50"
+	         width="50"></a>
+            </td>
+        </tr>
+    </tbody>
+</table></br></br>
+
+
+
 <p align="center">
    <img src="https://github.com/Darkside-Interactive/.github/blob/develop/images/AFHNewLogo_4K.png"
         height="1024"
@@ -49,8 +74,6 @@
 <br>
 <br>
 
-
-
 <p align="center">
    <img src="https://github.com/Darkside-Interactive/.github/blob/develop/images/03_GoshaLox1_0019.jpg"
         height="580"
@@ -66,7 +89,7 @@
 
 <p align="center">
    <img src="https://github.com/Darkside-Interactive/.github/blob/develop/images/AWAY_FROM_HOME_PART_II_POSTER_3640_2160.png"
-        height="512"
+        height="482"
         width="3840">
 </p>
 
@@ -80,30 +103,6 @@
  	<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC" alt="Последняя активность">
 </p>
 
-<h2 align="center">Localization</h2>
-<table align="center">
-    <tbody>
-        <tr>
-            <td><a href="https://github.com/ICEtheBreaker/rpp_aurora/blob/master/docs/README_eng.md">  
-                <img src="https://cdn.icon-icons.com/icons2/3665/PNG/512/gb_flag_great_britain_england_union_jack_english_icon_228674.png" title="English" alt="English"
-        	 height="50"
-                 width="50"></a>
-            </td>
-            <td><a href="https://github.com/ICEtheBreaker/rpp_aurora/blob/master/README.md">
-           	<img src="https://cdn.icon-icons.com/icons2/83/PNG/512/russia_15804.png" title="Русский" alt="Русский"
-                 height="50"
-                 width="50"></a>
-            </td>
- 	    <td><a href="https://github.com/ICEtheBreaker/rpp_aurora/blob/master/docs/README_bel.md">
-	        <img src="https://cdn.icon-icons.com/icons2/107/PNG/512/belarus_18247.png" title="Беларуска мова" alt="Беларуская мова"
-	         height="50"
-	         width="50"></a>
-            </td>
-        </tr>
-    </tbody>
-</table></br></br>
-
-
 <h2 align='center'>Статус разработки</h2>
 <p align="center">
         <img src="https://img.shields.io/github/actions/workflow/status/ICEtheBreaker/rpp_aurora/manual.yml?label=%D0%A1%D0%A2%D0%90%D0%A2%D0%A3%D0%A1%20%D0%A1%D0%91%D0%9E%D0%A0%D0%9A%D0%98&style=for-the-badge" alt="Статус сборки">
@@ -115,7 +114,7 @@
 <h2 align='center'>Активность на ветку</h2>
 <p align="center">
 		<a href="https://github.com/Darkside-Interactive/AFH/blob/prod" alt="Ветка PROD">
-	<img src="https://img.shields.io/github/commit-activity/t/Darkside-Interactive/AFH/prod?style=for-the-badge&label=prod" alt="Ветка SOURCES"></a>
+	<img src="https://img.shields.io/github/commit-activity/t/Darkside-Interactive/AFH/prod?style=for-the-badge&label=prod" alt="Ветка PROD"></a><br>
 	<a href="https://github.com/Darkside-Interactive/AFH/" alt="Ветка DEVELOP">
 	<img src="https://img.shields.io/github/commit-activity/t/Darkside-Interactive/AFH/develop?style=for-the-badge&label=develop" alt="Ветка DEVELOP"></a>
 	<a href="https://github.com/Darkside-Interactive/AFH/blob/release" alt="Ветка RELEASE">
