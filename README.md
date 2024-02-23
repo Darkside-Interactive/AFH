@@ -103,14 +103,6 @@
  	<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC" alt="Последняя активность">
 </p>
 
-<h2 align='center'>Статус разработки</h2>
-<p align="center">
-        <img src="https://img.shields.io/github/actions/workflow/status/ICEtheBreaker/rpp_aurora/manual.yml?label=%D0%A1%D0%A2%D0%90%D0%A2%D0%A3%D0%A1%20%D0%A1%D0%91%D0%9E%D0%A0%D0%9A%D0%98&style=for-the-badge" alt="Статус сборки">
-    <a href="https://github.com/Darkside-Interactive/AFH/graphs/contributors" alt="Контрибьюторы">
-        <img src="https://img.shields.io/github/contributors/ICEtheBreaker/CRMPProject-Main?label=%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%B8%D0%B1%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D1%8B&style=for-the-badge" alt="Контрибьютеры"></a>
-	<img src="https://img.shields.io/github/license/Darkside-Interactive/AFH?style=for-the-badge&label=%D0%9B%D0%98%D0%A6%D0%95%D0%9D%D0%97%D0%98%D0%AF" alt="GPL 3.0">
- 	<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC" alt="Последняя активность">
-</p>
 <h2 align='center'>Активность на ветку</h2>
 <p align="center">
 		<a href="https://github.com/Darkside-Interactive/AFH/blob/prod" alt="Ветка PROD">
