@@ -106,7 +106,7 @@
 <h2 align='center'>Активность на ветку</h2>
 <p align="center">
 		<a href="https://github.com/Darkside-Interactive/AFH/blob/prod" alt="Ветка PROD">
-	<img src="https://img.shields.io/github/commit-activity/t/Darkside-Interactive/AFH/prod?style=for-the-badge&label=prod" alt="Ветка PROD"></a><br>
+	<img src="https://img.shields.io/github/commit-activity/t/Darkside-Interactive/AFH/prod?style=for-the-badge&label=prod" alt="Ветка PROD"></a>
 	<a href="https://github.com/Darkside-Interactive/AFH/" alt="Ветка DEVELOP">
 	<img src="https://img.shields.io/github/commit-activity/t/Darkside-Interactive/AFH/develop?style=for-the-badge&label=develop" alt="Ветка DEVELOP"></a>
 	<a href="https://github.com/Darkside-Interactive/AFH/blob/release" alt="Ветка RELEASE">
@@ -117,7 +117,7 @@
 	<img src="https://img.shields.io/github/commit-activity/t/Darkside-Interactive/AFH/test_branch?style=for-the-badge&label=test_branch" alt="Ветка TEST_BRANCH"></a>
 </p>
 <p align="center">
-		<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH/prod?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC%20%D0%92%D0%95%D0%A2%D0%9A%D0%98%20PROD" alt="Последняя 		активность ветки PROD"></a>
+		<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH/prod?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC%20%D0%92%D0%95%D0%A2%D0%9A%D0%98%20PROD" alt="Последняя 		активность ветки PROD"></a><br>
 	 	<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH/develop?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC%20%D0%92%D0%95%D0%A2%D0%9A%D0%98%20DEVELOP" 			alt="Последняя 	активность ветки DEVELOP">	
 		<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH/release?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC%20%D0%92%D0%95%D0%A2%D0%9A%D0%98%20RELEASE" 			alt="Последняя 	активность ветки RELEASE">
 		<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH/sources?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC%20%D0%92%D0%95%D0%A2%D0%9A%D0%98%20SOURCES" 			alt="Последняя 	активность ветки SOURCES">
