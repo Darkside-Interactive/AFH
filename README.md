@@ -1,8 +1,85 @@
 <p align="center">
+   <img src="https://github.com/Darkside-Interactive/.github/blob/develop/images/AFHNewLogo_4K.png"
+        height="1024"
+        width="3840">
+</p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<h1 align='center'>Первый эпизод</h1>
+
+<p align="center">
+   <img src="https://github.com/Darkside-Interactive/.github/blob/develop/images/AFHWallpaper.jpg"
+        height="220"
+        width="1280">
+</p>
+
+<p align="center">
+	<img src="https://img.shields.io/steam/release-date/3025614850?style=for-the-badge&label=%D0%94%D0%90%D0%A2%D0%90%20%D0%A0%D0%95%D0%9B%D0%98%D0%97%D0%90" alt="Дата релиза">
+ 	<img src="https://img.shields.io/steam/update-date/3025614850?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%95%D0%95%20%D0%9E%D0%91%D0%9D%D0%9E%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95" alt="Последнее обновление">
+	<img src="https://img.shields.io/github/contributors/ICEtheBreaker/CRMPProject-Main?label=%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%B8%D0%B1%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D1%8B&style=for-the-badge" alt="Контрибьютеры">
+	<img src="https://img.shields.io/steam/size/3025614850?style=for-the-badge&label=%D0%A0%D0%90%D0%97%D0%9C%D0%95%D0%A0" alt="Размер">
+	<img src="https://img.shields.io/steam/views/3025614850?style=for-the-badge&label=%D0%9F%D0%A0%D0%9E%D0%A1%D0%9C%D0%9E%D0%A2%D0%A0%D0%AB" alt="Просмотры">
+ 	<img src="https://img.shields.io/steam/downloads/3025614850?style=for-the-badge&label=%D0%A1%D0%9A%D0%90%D0%A7%D0%98%D0%92%D0%90%D0%9D%D0%98%D0%AF" alt="Скачивания">
+</p>
+<br>
+<br>
+<br>
+
+
+# ВДАЛИ ОТ ДОМА : ЭПИЗОД ПЕРВЫЙ
+
+## СЮЖЕТ
+
+<p>
+	Знаете ли вы эту вечную проблему холода? Он пожирает вас, когда вы этого не чувствуете. И только из-за него, много хороших солдат погибло в попытках проникнуть в одно место... Место, которое однажды назвали ''Скайримом'' и это название запомнилось АОЗ на многие года. <br>
+	<br>Связь с этим местом была полностью утеряна на целых четыре года и АОЗ не имела никакого понятия, что там могло произойти. И теперь, пришёл момент. Вас избрали в качестве идеального солдата для расследования произошедшего в ''Скайриме''.<br>
+	<br>Вы - <b>Сэм Киселёв</b>. Вас перебросили в Западную Сибирь для дальнейшей подготовки к операции. Вы отправитесь в Южную Сибирь и Вас будет направлять один из операторов АОЗ. Кто знает, кто он?<br>
+	<br>Узнайте тайну ''Скайрима'' и решайте головоломки. Сделайте всё возможное, чтобы вернуть ''Скайрим'' под контроль АОЗ. Восстановите связь и уничтожьте всех, кто встанет на вашем пути.<br>
+</p>
+
+---------------------------------------------------------------------------------
+<br>
+<br>
+<br>
+
+
+
+<p align="center">
+   <img src="https://github.com/Darkside-Interactive/.github/blob/develop/images/03_GoshaLox1_0019.jpg"
+        height="580"
+        width="1280">
+</p>
+
+<br>
+<br>
+<br>
+
+<h1 align='center'>Второй эпизод</h1>
+
+
+<p align="center">
    <img src="https://github.com/Darkside-Interactive/.github/blob/develop/images/AWAY_FROM_HOME_PART_II_POSTER_3640_2160.png"
         height="512"
         width="3840">
 </p>
+
+
+<h1 align='center'>Статус проекта</h2>
+<p align="center">
+        <img src="https://img.shields.io/github/actions/workflow/status/ICEtheBreaker/rpp_aurora/manual.yml?label=%D0%A1%D0%A2%D0%90%D0%A2%D0%A3%D0%A1%20%D0%A1%D0%91%D0%9E%D0%A0%D0%9A%D0%98&style=for-the-badge" alt="Статус сборки">
+    <a href="https://github.com/Darkside-Interactive/AFH/graphs/contributors" alt="Контрибьюторы">
+        <img src="https://img.shields.io/github/contributors/ICEtheBreaker/CRMPProject-Main?label=%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%B8%D0%B1%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D1%8B&style=for-the-badge" alt="Контрибьютеры"></a>
+	<img src="https://img.shields.io/github/license/Darkside-Interactive/AFH?style=for-the-badge&label=%D0%9B%D0%98%D0%A6%D0%95%D0%9D%D0%97%D0%98%D0%AF" alt="GPL 3.0">
+ 	<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC" alt="Последняя активность">
+</p>
+
 <h2 align="center">Localization</h2>
 <table align="center">
     <tbody>
@@ -26,132 +103,44 @@
     </tbody>
 </table></br></br>
 
-<h2 align='center'>Статус репозитория</h2>
+
+<h2 align='center'>Статус разработки</h2>
 <p align="center">
         <img src="https://img.shields.io/github/actions/workflow/status/ICEtheBreaker/rpp_aurora/manual.yml?label=%D0%A1%D0%A2%D0%90%D0%A2%D0%A3%D0%A1%20%D0%A1%D0%91%D0%9E%D0%A0%D0%9A%D0%98&style=for-the-badge" alt="Статус сборки">
-    <a href="https://github.com/ICEtheBreaker/CRMPProject-Main/graphs/contributors" alt="Контрибьюторы">
+    <a href="https://github.com/Darkside-Interactive/AFH/graphs/contributors" alt="Контрибьюторы">
         <img src="https://img.shields.io/github/contributors/ICEtheBreaker/CRMPProject-Main?label=%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%B8%D0%B1%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D1%8B&style=for-the-badge" alt="Контрибьютеры"></a>
-    <a href="https://github.com/ICEtheBreaker/CRMPProject-Main/pulse" alt="Активность">
-        <img src="https://img.shields.io/github/commit-activity/m/ICEtheBreaker/CRMPProject-Main?label=%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC&style=for-the-badge" alt="Активность" ></a>
-    <a href="https://github.com/ICEtheBreaker/CRMPProject-Main/graphs/commit-activity" alt="Последняя активность">
-        <img src="https://img.shields.io/github/last-commit/ICEtheBreaker/CRMPProject-Main?label=%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C&style=for-the-badge" alt="Последняя активность" ></a>
-        <img src="https://img.shields.io/github/repo-size/ICEtheBreaker/rpp_aurora?label=%D0%A0%D0%90%D0%97%D0%9C%D0%95%D0%A0&style=for-the-badge" alt="Размер">
-    <!--<a href="https://vk.com/rpp.aurora" alt="Следить">
-        <img src="https://img.shields.io/twitter/follow/rpp.aurora?&style=for-the-badge" alt="Следить за новостями"></a>--->
+	<img src="https://img.shields.io/github/license/Darkside-Interactive/AFH?style=for-the-badge&label=%D0%9B%D0%98%D0%A6%D0%95%D0%9D%D0%97%D0%98%D0%AF" alt="GPL 3.0">
+ 	<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC" alt="Последняя активность">
 </p>
-<h2 align="center">Проверка веток</h2>
+<h2 align='center'>Активность на ветку</h2>
 <p align="center">
-    <img src="https://img.shields.io/github/checks-status/ICEtheBreaker/rpp_aurora/master?label=master&style=for-the-badge" alt="проверка ветки master">
-    <img src="https://img.shields.io/github/checks-status/ICEtheBreaker/rpp_aurora/develop?label=develop&style=for-the-badge" alt="проверка ветки develop">
-    <img src="https://img.shields.io/github/checks-status/ICEtheBreaker/rpp_aurora/feature_duttilao?label=feature_duttilao&style=for-the-badge" alt="проверка ветки feature_duttilao">
-    <img src="https://img.shields.io/github/checks-status/ICEtheBreaker/rpp_aurora/feature_devjan?label=feature_devjan&style=for-the-badge" alt="проверка ветки feature_devjan">
+		<a href="https://github.com/Darkside-Interactive/AFH/blob/prod" alt="Ветка PROD">
+	<img src="https://img.shields.io/github/commit-activity/t/Darkside-Interactive/AFH/prod?style=for-the-badge&label=prod" alt="Ветка SOURCES"></a>
+	<a href="https://github.com/Darkside-Interactive/AFH/" alt="Ветка DEVELOP">
+	<img src="https://img.shields.io/github/commit-activity/t/Darkside-Interactive/AFH/develop?style=for-the-badge&label=develop" alt="Ветка DEVELOP"></a>
+	<a href="https://github.com/Darkside-Interactive/AFH/blob/release" alt="Ветка RELEASE">
+	<img src="https://img.shields.io/github/commit-activity/t/Darkside-Interactive/AFH/release?style=for-the-badge&label=release" alt="Ветка RELEASE"></a>
+		<a href="https://github.com/Darkside-Interactive/AFH/blob/sources" alt="Ветка SOURCES">
+	<img src="https://img.shields.io/github/commit-activity/t/Darkside-Interactive/AFH/sources?style=for-the-badge&label=sources" alt="Ветка SOURCES"></a>
+		<a href="https://github.com/Darkside-Interactive/AFH/blob/test_branch" alt="Ветка TEST_BRANCH">
+	<img src="https://img.shields.io/github/commit-activity/t/Darkside-Interactive/AFH/test_branch?style=for-the-badge&label=test_branch" alt="Ветка TEST_BRANCH"></a>
+</p>
+<p align="center">
+		<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH/prod?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC%20%D0%92%D0%95%D0%A2%D0%9A%D0%98%20PROD" alt="Последняя 		активность ветки PROD"></a>
+	 	<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH/develop?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC%20%D0%92%D0%95%D0%A2%D0%9A%D0%98%20DEVELOP" 			alt="Последняя 	активность ветки DEVELOP">	
+		<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH/release?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC%20%D0%92%D0%95%D0%A2%D0%9A%D0%98%20RELEASE" 			alt="Последняя 	активность ветки RELEASE">
+		<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH/sources?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC%20%D0%92%D0%95%D0%A2%D0%9A%D0%98%20SOURCES" 			alt="Последняя 	активность ветки SOURCES">
+		<img src="https://img.shields.io/github/last-commit/Darkside-Interactive/AFH/test_branch?style=for-the-badge&label=%D0%9F%D0%9E%D0%A1%D0%9B%D0%95%D0%94%D0%9D%D0%AF%D0%AF%20%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%AC%20%D0%92%D0%95%D0%A2%D0%9A%D0%98%20TEST_BRANCH" 		alt="Последняя активность ветки TEST_BRANCH">
+</p>
+<h2 align='center'>Информация о проекте</h2>
+<p align="center">
+	<img src="https://img.shields.io/github/repo-size/Darkside-Interactive/AFH?style=for-the-badge&label=%D0%A0%D0%B0%D0%B7%D0%BC%D0%B5%D1%80" alt="Размер"></a>
+ 	
 </p>
 
-# Что это?
-Это **приют бездомных** <a href="https://vk.com/rpp.aurora">Aurora RP</a>, который представляет из себя ролевой режим, где каждый должен отыгрывать свою роль, создавать и развивать своих персонажей. Любой может достичь небывалых высот или же остаться в низинах. Вступите в государственную организацию или во фракцию. Выполняйте задания для своей фракции и повышайте её репутацию. Создайте свой уникальный бизнес и используйте все силы маркетинга, чтобы он стал популярным.
+# Лицензия
 
-Этот репозиторий хранит в себе:
-  - исходный код игрового мода на языке <a href="https://ru.wikipedia.org/wiki/Pawn">Pawn</a>;
-  - колонтитульные файлы;
-    - инклуды;
-    - скриптфайлы;
-  - фильтрскрипты
-  - плагины
-  - настройки для <a href="https://code.visualstudio.com">VS Code</a>; 
-     - <a href="https://learn.microsoft.com/en-us/visualstudio/releases/2019/release-notes">VS2019 Community</a>;
-     - <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">Git Lens</a>. - это основное расширение для лучшей работы с Git
-
-## Быстрый старт
-
-Основной <a href="https://github.com/ICEtheBreaker/rpp_aurora">репозиторий</a> - цитадель всего, что связано с проектом <a href="https://vk.com/rpp.aurora">Aurora RP</a>. 
-
-Вы можете свободно форкать этот репозиторий и добавлять свои улучшения.
-Если Вы желаете помочь в разработке, вы можете склонировать репозиторий и создать пулл реквест.
-	
-## Клонирование  
-Следуйте шагам ниже, чтобы успешно приступить к работе.
-</br>
-
-Прежде чем начать, Вам необходим Git и SSH
-
-##### У вас установлен <a href="https://git-scm.com/downloads">Git</a> и настроен <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">SSH-клиент</a>.
-
-1. Откройте свой терминал Git и введите следующую команду:
-```
-git clone git@github.com:ICEtheBreaker/rpp_aurora.git
-```
-
-<h4>Это склонирует репозиторий в вашу рабочую директорию.</h4>
-
-------------------------------------------------
-
-2. Когда клонирование завершится, переключитесь на свою рабочую директорию.
-```
-cd /диск/${workspaceRoot}/имя директории
-```
-<h4>диск - буква вашего диска</br>
-${workspaceRoot} - путь к вашей рабочей директории.</h4>
-
-------------------------------------------------
-
-### Если у Вас установлены Git-клиенты, такие как: <a href="https://sourcetreeapp.com">Sourcetree</a>, <a href="https://desktop.github.com">GitHub Desktop</a> и т.д
-</br>
-<h2><a href="https://sourcetreeapp.com">Sourcetree</a></h2>
-
-
-1. Подключите свой профиль GitHub к Sourcetree;
-2. Нажмите на кнопку 'Склонировать';
-3. Вставьте эту строку и выберите папку, в которую склонируется репозиторий;
-```
-git@github.com:ICEtheBreaker/rpp_aurora.git
-```
-4. Дождитесь окончания клонирования;
-5. Начните работу.
-
-> Мы используем Sourcetree для легкой работы с Git
-</br>
-<h2><a href="https://desktop.github.com">GitHub Desktop</a></h2>
-
-
-1. Нажмите на 'File' в верхнем таскбаре;
-2. Выберите 'Clone repository';
-3. Нажмите на 'URL' и вставьте эту строку:
-```
-git@github.com:ICEtheBreaker/rpp_aurora.git
-```
-4. Выберите папку, в которую склонируется репозиторий;
-5. Дождитесь окончания клонирования;
-6. Начните работу..
-
-> GitHub Desktop - официальный Git-клиент GitHub
-
-Если у Вас не получается выполнить шаги выше, Вы можете перейти в репозиторий и нажать на 'Code', а затем Download ZIP. Вы скачаете текущую версию на выбранной ветке.
-
-# Директории файлов и разработка
-Мы используем следующие IDEs для более быстрой и слаженной разработки. Они также идут вместе с необходимыми расширениями и наборами инструментов тестирования.
-- <a href="https://code.visualstudio.com">Visual Studio Code</a>; 
-- <a href="https://www.sublimetext.com">Sublime Text</a>;
-- <a href="https://learn.microsoft.com/en-us/visualstudio/releases/2019/release-notes">Visual Studio 2019 Community</a>;
-
-- <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">Git Lens</a>.
-------------------------------------------------
-### Пути файлов
-
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/gamemodes/new.pwn">gamemodes/new.pwn</a> - основной игровой мод;</br></h3>
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/defines/systems/capture_natives">defines/systems/captune_natives/natives.inc</a> - нативы и макросы;</br></h3>
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/defines/colors.inc">defines/colors.inc</a> - цветовые коды HTML & HEX;</br></h3>
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/defines/db_conn">defines/db_conn</a> - SQL-соединение;</br></h3>
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/defines/macroses.inc">defines/macroses.inc</a> - макросы и нативы;</br></h3>
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/defines/name.inc">defines/name.inc</a> - название сервера, имя мода, имя карты, <a href="https://vk.com/rpp.aurora">группа проекта</a>;</br></h3>
-   - <h3><a href="https://github.com/ICEtheBreaker/CRMPProject-Main/tree/develop/pawno/includes">pawno/includes</a> - все инклуды и колонтитульные файлы</br></h3>
-
-------------------------------------------------
-
-# <a href="https://github.com/ICEtheBreaker/rpp_aurora/blob/master/LICENSE.md">Лицензия</a>
-Все ресурсы, кроме инклудов вне директории `/defines`, находятся под ЛИЦЕНЗИЕЙ SAMP-LICENSE и являются собственностью Darkside Interactive. Использование исходного кода в целях личной выгоды, кражи, передачи третьим лицам или распространении в массы строго запрещены. 
-
-Все логотипы в `/raw` являются товарными знаками соответствующих компаний и действуют в соответствии с их условиями и лицензией.
-# Поддержка
-
-<h5>Вы можете связаться с нами или создать новый отчет в Issues, если Вами была найдена ошибка или говнокод.</h5>
-
+<h3>
+Все ресурсы являются собственностью Darkside Interactive. Использование исходного кода в целях личной выгоды, кражи, передачи третьим лицам или распространении в массы строго запрещены. 
+Все логотипы в `/sources` являются товарными знаками соответствующих компаний и действуют в соответствии с их условиями и лицензией.
+</h3>
