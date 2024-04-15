@@ -88,7 +88,7 @@
 
 
 <p align="center">
-   <img src="https://github.com/Darkside-Interactive/.github/blob/develop/images/AWAY_FROM_HOME_PART_II_POSTER_3640_2160.png"
+   <img src="https://github.com/Darkside-Interactive/.github/blob/develop/images/AFHIIWallpaper.png"
         height="482"
         width="3840">
 </p>
