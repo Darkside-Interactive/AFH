@@ -1,5 +1,6 @@
 --================================|| PLAYER SEARCHING FUNCTION||======================================================================================================
 local worldInfo = worldGlobals.worldInfo -- worldInfo : CWorldInfoEntity
+local player -- player : CPlayerPuppetEntity  
 worldGlobals.AFH = {}
 local InitLocalPlayerHandler = function()
   if(worldGlobals.AFH.bLocalPlayerHandlerAttached) then return end
@@ -25,22 +26,48 @@ local InitLocalPlayerHandler = function()
  end)
 end
 InitLocalPlayerHandler()
---====================================================================================================================================================================
-
-local player -- player : CPlayerPuppetEntity  
+--================================|| INITIALIZE PLAYER ||========================================================================================================
 Wait(CustomEvent("AFH_LocalPlayerFound")) 
 player = worldGlobals.AFH.penLocalPlayer
-
-
+--================================|| PLAYER TABLE STATS ||=======================================================================================================
+local pStats = {
+  ["Tourist"] = {dash_power_x = 30, dash_power_y = 10, dash_power_z = 30, dash_recharge = 0.5, health = 300, armor = 300},
+  ["Easy"] = {dash_power_x = 25, dash_power_y = 7, dash_power_z = 25, dash_recharge = 1, health = 300, armor = 300},
+  ["Normal"] = {dash_power_x = 15, dash_power_y = 4, dash_power_z = 15, dash_recharge = 1.4, health = 200, armor = 200},
+  ["Hard"] = {dash_power_x = 10, dash_power_y = 3, dash_power_z = 10, dash_recharge = 1.8, health = 200, armor = 200},
+  ["Serious"] = {dash_power_x = 10, dash_power_y = 1, dash_power_z = 10,dash_recharge = 2, health = 200, armor = 200},
+  ["Mental"] = {dash_power_x = 5, dash_power_y = 0, dash_power_z = 5, dash_recharge = 3.5, health = 200, armor = 200}
+}
 --================================|| THIS IS INCLUDES ||======================================================================================================
-local dev = nil
-if scrFileExists("Content/GoshaLox2/Scripts/DRK_DevWorldScripts.lua") then
-  dev = import("Content/GoshaLox2/Scripts/DRK_DevWorldScripts.lua")
-else
-  dev = nil
+  -- nothing here, of course :))))))))))))
+--================================|| STARTUP MESSAGE ||==========================================================================================================
+local BUILD_NUMBER = "0.1.2.8"
+local BUILD_STATUS = "ALPHA"
+local BUILD_SHA = "29f381"
+if player then
+  conLogF("[AFH]: CScriptEntity, ('Content/GoshaLox2/Scripts/NewOverridenHudV2.lua') hud started.\n")
+else 
+  conErrorF("[AFH]: Failed to load CScriptEntity, ('Content/GoshaLox2/Scripts/NewOverridenHudV2.lua')\n       Possible errors: player not found\n")
+  return
 end
-
-
+if corIsAppEditor() then
+  conLogF("------------- NEW OVERRIDEN HUD -------------\n")
+  conLogF("[AFH]: CPlayerPuppetEntity,"..player:GetEntityID()..","..player:GetPlayerName()..")] DP: X: "..pStats[worldGlobals.worldInfo:GetGameDifficulty()].dash_power_x..", Y: "..pStats[worldGlobals.worldInfo:GetGameDifficulty()].dash_power_y..", Z: "..pStats[worldGlobals.worldInfo:GetGameDifficulty()].dash_power_x.." KD: "..pStats[worldGlobals.worldInfo:GetGameDifficulty()].dash_recharge.."\n")
+  conLogF("[AFH]: CPlayerPuppetEntity,"..player:GetEntityID()..","..player:GetPlayerName()..")] M_HEALTH: "..player:GetMaxHealth()..", M_ARMOR: "..player:GetMaxArmor().."\n")  
+  conLogF("[AFH]: World Difficulty(GDF): "..worldInfo:GetGameDifficulty().."\n")
+  conLogF("[AFH]: World GameMode: "..worldInfo:GetGameMode().." ("..(worldInfo:GetGameMode() == "SinglePlayer" and "Cooperative" or "SinglePlayer").." is not possible)\n")
+  if scrFileExists("Content/GoshaLox2/Scripts/DRK_DevWorldScripts.lua") then
+    conLogF("[AFH]: B_INF: V: "..BUILD_NUMBER.."\n[AFH]:        S: "..BUILD_STATUS.."\n[AFH]:        SH: "..BUILD_SHA.."\n")
+  else
+    conLogF("[AFH]: Can't find Developer Scripts.\n")
+  end
+  if(player:GetPlayerName() == "![C]E_the_Bre]a[ker") then
+    conLogF("[AFH]: Hello, ![C]E_the_Bre]a[ker. Welcome back.\n")
+  else
+    conLogF("[AFH]: USER: "..player:GetPlayerName().."\n")
+  end
+  conLogF("-------------------------------------------------------\n")
+end
 --================================|| GLOBAL VARIABLES||=======================================================================================================
 local bDashRechargeIsDynamicOrFixed = true
 local isDamage,isSpeed,isInvulnerability = false
@@ -52,7 +79,6 @@ local Direction_Back = nil
 local Gun = nil -- Gun : CWeaponEntity
 local Gun_Left = nil -- Gun_Left : CWeaponEntity
 local fBlinkTimer = 0
-
 --================================|| GLOBAL TEXT VARIABLES ||=================================================================================================
 local HudPointerText_OverHealth = TranslateString("TTRS:HudElement.Text_OverHealth=OVERHEALTH")
 local HudPointerText_Health = TranslateString("TTRS:HudElement.Text_Health=HEALTH")
@@ -65,27 +91,15 @@ local HudPointerText_Vehicle = TranslateString("TTRS:HudElement.Text_Engine=ENGI
 local HudPointerText_Alt = TranslateString("TTRS:HudElement.Text_Alt=ALT")
 local HudPointerText_Left = TranslateString("TTRS:HudElement.Text_Left=LEFT")
 local HudPointerText_Right = TranslateString("TTRS:HudElement.Text_Right=RIGHT")
-
 --================================|| GLOBAL HUD ELEMENTS VARIABLES||===========================================================================================
 local HealthArmor = player:FindHudElementByName("H_A") -- HealthArmor : CModelHudElement
 local Compass = player:FindHudElementByName("Compass") -- Compass : CModelHudElement
 local mdlDashBar = player:FindHudElementByName("H_A") -- mdlDashBar : CModelHudElement
 local GDF = worldInfo:GetGameDifficulty()  
-
 --================================|| RESOURCES ||==============================================================================================================
 local dash = LoadResource("Content/GoshaLox2/Presets/PostProcessing/Dash.rsc") -- dash : CPostProcessingEffectEntity
 local HUD = LoadResource("Content/GoshaLox2/Scripts/Templates/NewOverridenHudV2.rsc") -- HUD : CTemplatePropertiesHolder
-
-
 --================================|| TABLES ||=================================================================================================================
-local pStats = {
-  ["Tourist"] = {dash_power_x = 30, dash_power_y = 10, dash_power_z = 30, dash_recharge = 0.5, health = 300, armor = 300},
-  ["Easy"] = {dash_power_x = 25, dash_power_y = 7, dash_power_z = 25, dash_recharge = 1, health = 300, armor = 300},
-  ["Normal"] = {dash_power_x = 15, dash_power_y = 4, dash_power_z = 15, dash_recharge = 1.4, health = 200, armor = 200},
-  ["Hard"] = {dash_power_x = 10, dash_power_y = 3, dash_power_z = 10, dash_recharge = 1.8, health = 200, armor = 200},
-  ["Serious"] = {dash_power_x = 10, dash_power_y = 1, dash_power_z = 10,dash_recharge = 2, health = 200, armor = 200},
-  ["Mental"] = {dash_power_x = 5, dash_power_y = 0, dash_power_z = 5, dash_recharge = 3.5, health = 200, armor = 200}
-}
 local Weapons = {
   --[[ WEAPONS ]]--
   MinigunParams = {param = "Content/SeriousSam4/Databases/Weapons/MiniGunWeapon.ep", bClip = true, mdlIcon = ("Content/GoshaLox2/Interface/WeaponIcons/MinigunIcon.mdl")},
@@ -117,30 +131,7 @@ local Weapons = {
    --[[ MELEE ]] --  
   Knife = {param = "Content/SeriousSam4/Databases/Weapons/KnifeWeapon.ep", bTmar = true, mdlIcon = "icon_knife"},
 }
---================================|| STARTUP MESSAGE ||==========================================================================================================
-conInfoF("\n")
-conInfoF("[AFH]: CScriptEntity, ('Content/GoshaLox2/Scripts/NewOverridenHudV2.lua') hud started.\n")
-if(corIsAppEditor()) then
-conInfoF("------------- NEW OVERRIDEN HUD -------------\n")
-conInfoF("[AFH]: Current difficulty: "..worldInfo:GetGameDifficulty().."\n") 
-conInfoF("[AFH]: Current gamemode: "..worldInfo:GetGameMode().."\n")
-conInfoF("[AFH]: [#Entity(CPlayerPuppetEntity,"..player:GetEntityID()..")] DASH POWER:\n[AFH]: X: "..pStats[worldGlobals.worldInfo:GetGameDifficulty()].dash_power_x..",\n[AFH]: Y: "..pStats[worldGlobals.worldInfo:GetGameDifficulty()].dash_power_y..",\n [AFH]: Z: "..pStats[worldGlobals.worldInfo:GetGameDifficulty()].dash_power_x.." \nDASH RECHARGE TIME: "..pStats[worldGlobals.worldInfo:GetGameDifficulty()].dash_recharge.."\n")
-conInfoF("[AFH]: [#Entity(CPlayerPuppetEntity,"..player:GetEntityID()..")] H_A max values: H: "..player:GetMaxHealth()..", A: "..player:GetMaxArmor().."\n")
-  if scrFileExists("Content/GoshaLox2/Scripts/DRK_DevWorldScripts.lua") then
-    conInfoF("[AFH]: Build version: "..dev.build_number()..", Build status: "..dev.build_status..", Build SHA: "..dev.build_hash.."\n")
-  else
-    conInfoF("[AFH]: Can't find Developer Scripts.\n")
-  end
-  if(player:GetPlayerName() == "![C]E_the_Bre]a[ker") then
-    conInfoF("[AFH]: Hello, ![C]E_the_Bre]a[ker. Welcome back.\n")
-  else
-    conInfoF("[AFH]: Current user: "..player:GetPlayerName().."\n")
-  end
-end
-conInfoF("-------------------------------------------------------\n")
-conInfoF("\n")
-
-
+--================================|| L-FUNCTIONS ||=============================================================================================================
 --[[------------------------------------------------------------------
   INTERFACE ELEMENT POSITION ANIMATION(AscendToHeaven)
   Lerps element position from it's current (vStartPosition) to desired position (vEndPosition)
