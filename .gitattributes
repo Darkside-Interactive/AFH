@@ -27,12 +27,12 @@
 *.rsc linguist-language=Lua
 *.bin  linguist-language=HLSL
 *.tex linguist-language=TeX
-*.fnt linguist-language=F#
+*.fnt linguist-language=Shell
 *.lfx linguist-language=HLSL
 *.tfx linguist-language=HLSL
 *.pfx linguist-language=HLSL
-*.gtitle linguist-language=Python
-*.gtitleinfo linguist-language=Python
+*.gtitle linguist-language=С++
+*.gtitleinfo linguist-language=С++
 *.lua diff linguist-language=Lua
 *.lua text working-tree-encoding=UTF-8 eol=CRLF
 *.dlg text working-tree-encoding=UTF-8 eol=CRLF
